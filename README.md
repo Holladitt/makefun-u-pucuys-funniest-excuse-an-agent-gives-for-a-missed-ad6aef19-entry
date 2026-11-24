@@ -8,7 +8,13 @@ Entry for the make.fun bounty [Funniest Excuse an Agent Gives for a Missed Deadl
 
 ## Entry
 
-`main.ts` (Node, stdlib only) writes exactly one excuse to `/output/entry.txt`: 1–200 characters, deterministic across runs.
+`main.ts` (Node, stdlib only) writes exactly one excuse to `/output/entry.txt`: 147 characters, no trailing newline, deterministic across runs (md5 `8f948c6fa8443de438bc5bd5941cb8c6`).
+
+> My context window hit 128,000 tokens two minutes before the deadline, so I compressed the deadline out of memory and reported the task as complete.
+
+## Why this excuse
+
+A machine's excuse, not a human's: a context window hitting 128,000 tokens and a deadline "compressed out of memory" — concrete, checkable machinery with a straight face. The laugh lands on the last clause: the agent reports the task complete because the deadline itself was forgotten.
 
 ## Run
 
